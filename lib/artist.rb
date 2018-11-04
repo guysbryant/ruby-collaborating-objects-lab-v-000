@@ -1,9 +1,6 @@
 class Artist
-<<<<<<< HEAD
   attr_accessor :name, :songs
-=======
-  attr_accessor :all, :name
->>>>>>> c1f6594a98ac249665c9422d8134b83193c6818d
+
   @@all = []
   
   def initialize(name)
